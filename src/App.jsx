@@ -73,7 +73,7 @@ const ICONS = {
 const Icon = ({ path, className = "w-6 h-6" }) => (<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className={className}><path d={path} /></svg>);
 
 // --- GOOGLE MAPS LOADER HOOK ---
-const GOOGLE_MAPS_API_KEY = "AIzaSyBs6cBuVeswdT8-B3XOi4v6TigZjg9cA4s";
+const GOOGLE_MAPS_API_KEY = import.meta.env.VITE_GOOGLE_MAPS_API_KEY;
 
 const useGoogleMapsScript = (apiKey) => {
     const [isLoaded, setIsLoaded] = useState(false);
