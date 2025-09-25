@@ -1,0 +1,8 @@
+{
+  "appId": "com.sih.rescueconnect",
+  "appName": "RescueConnect",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  }
+}
